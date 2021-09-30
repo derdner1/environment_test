@@ -19,7 +19,7 @@
     <%= form.label :price %>
     <%= form.text_field :price %>
     <%= form.label :date %>
-    <%= form.date_select :date, :start_year=>2010, :end_year=>2021, :use_month_numbers=> true, :order=>[:year,:month,:day] %>
+    <%= form.date_select(:date, :start_year=>2010, :end_year=>2021, :use_month_numbers=> true, :order=>[:year,:month,:day]) %>
   </div>
 
   <div class="actions">
